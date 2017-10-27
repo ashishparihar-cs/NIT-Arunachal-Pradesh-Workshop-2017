@@ -7,19 +7,19 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HelloController {
 
-	@RequestMapping("/option1")
+	@RequestMapping("/home")
 	public ModelAndView mymethod1(){
-		return new ModelAndView("option1","msg","Insert Data Here");
+		return new ModelAndView("index");
 	}
 	
-	@RequestMapping("/option2")
+	@RequestMapping("/option1")
 	public ModelAndView mymethod2(){
-		return new ModelAndView("option2","msg","Hello First Spring");
+		return new ModelAndView("option1","msg","Insert data here");
 	}
 	
-	@RequestMapping("/option3")
+	@RequestMapping("/contactus")
 	public ModelAndView mymethod3(){
-		return new ModelAndView("option3","msg","Hello First Spring");
+		return new ModelAndView("option2","msg","Hello First Spring");
 	}
 	
 	@RequestMapping("/option4")

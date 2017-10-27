@@ -221,7 +221,7 @@ Yupia, District Papum Pare, Arunachal Pradesh, INDIA - 791112</h2>
                 <li ><a href="option3">Visiting Faculty</a></li>
                 <li><a href="option4">Schedule</a></li>
                 <li><a href="option5">Workshop Detail</a></li>
-                <li><a href="contactus">Contacts Us</a></li>
+                <li><a href="option6">Contacts Us</a></li>
                 
 
             </ul>
